@@ -1,0 +1,2 @@
+MainPackage=C:\Users\coole\source\repos\UWP Clicker\UWP Clicker\bin\ARM\Release\UWP Clicker_0.1.2.0_ARM.appx
+SymbolPackage=C:\Users\coole\source\repos\UWP Clicker\UWP Clicker\AppPackages\UWP Clicker_0.1.2.0_Test\UWP Clicker_0.1.2.0_ARM.appxsym

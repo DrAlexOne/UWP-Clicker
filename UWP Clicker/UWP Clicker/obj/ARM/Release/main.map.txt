@@ -1,0 +1,17 @@
+[ResourceMetadata]
+"ResourceDimensions"		"scale-200"
+"ResourceDimensions"		"language-ru"
+"ResourceDimensions"		"language-ru-RU"
+
+[Files]
+"C:\Users\coole\source\repos\UWP Clicker\UWP Clicker\obj\ARM\Release\split.pri"			"resources.pri"
+"C:\Users\coole\source\repos\UWP Clicker\UWP Clicker\obj\ARM\Release\PackageLayout\UWP Clicker.exe"			"UWP Clicker.exe"
+"C:\Users\coole\source\repos\UWP Clicker\UWP Clicker\obj\ARM\Release\PackageLayout\UWP Clicker.dll"			"UWP Clicker.dll"
+"C:\Users\coole\source\repos\UWP Clicker\UWP Clicker\obj\ARM\Release\PackageLayout\clrcompression.dll"			"clrcompression.dll"
+"C:\Users\coole\source\repos\UWP Clicker\UWP Clicker\obj\ARM\Release\PackageLayout\Assets\Wide310x150Logo.scale-200.png"			"Assets\Wide310x150Logo.scale-200.png"
+"C:\Users\coole\source\repos\UWP Clicker\UWP Clicker\obj\ARM\Release\PackageLayout\Assets\StoreLogo.png"			"Assets\StoreLogo.png"
+"C:\Users\coole\source\repos\UWP Clicker\UWP Clicker\obj\ARM\Release\PackageLayout\Assets\Square44x44Logo.targetsize-24_altform-unplated.png"			"Assets\Square44x44Logo.targetsize-24_altform-unplated.png"
+"C:\Users\coole\source\repos\UWP Clicker\UWP Clicker\obj\ARM\Release\PackageLayout\Assets\Square44x44Logo.scale-200.png"			"Assets\Square44x44Logo.scale-200.png"
+"C:\Users\coole\source\repos\UWP Clicker\UWP Clicker\obj\ARM\Release\PackageLayout\Assets\Square150x150Logo.scale-200.png"			"Assets\Square150x150Logo.scale-200.png"
+"C:\Users\coole\source\repos\UWP Clicker\UWP Clicker\obj\ARM\Release\PackageLayout\Assets\SplashScreen.scale-200.png"			"Assets\SplashScreen.scale-200.png"
+"C:\Users\coole\source\repos\UWP Clicker\UWP Clicker\obj\ARM\Release\PackageLayout\Assets\LockScreenLogo.scale-200.png"			"Assets\LockScreenLogo.scale-200.png"
