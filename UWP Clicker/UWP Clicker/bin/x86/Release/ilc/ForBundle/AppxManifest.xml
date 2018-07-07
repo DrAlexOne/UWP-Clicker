@@ -7,7 +7,7 @@
 
  Дополнительные сведения о файлах манифестов приложений см. по адресу http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="ClickerUWP" Publisher="CN=cooler" Version="0.2.5.0" ProcessorArchitecture="x86" />
+  <Identity Name="Clicker-UWP" Publisher="CN=cooler" Version="0.2.7.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="5c6a61a4-9648-41c6-b4c4-c87e1acd98af" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>UWP Clicker</DisplayName>

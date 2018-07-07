@@ -61,7 +61,7 @@ namespace __Interop
 	//     + Total Forward Stubs = 247
 	//         + Unshared Forward Stubs = 193
 	//         + Shared Forward Stubs = 54
-	//         + Shared Forward Stubs Cache Hit = 570
+	//         + Shared Forward Stubs Cache Hit = 572
 	//     + Total Reverse Stubs = 44
 	//         + Unshared Reverse Stubs = 30
 	//         + Shared Reverse Stubs = 14
@@ -71,17 +71,17 @@ namespace __Interop
 	//     + WinRT interfaces : 268
 	//     + WinRT classes : 129
 	//     + WinRT delegates : 33
-	//     + WinRT class methods : 460
+	//     + WinRT class methods : 462
 	//     + dispatch classes : 137
 	//     + dispatch methods : 267
 	//     + stub classes : 223
-	//     + stub methods : 810
+	//     + stub methods : 812
 	//     + vtables : 79
 	//     + vtable methods : 132
 	// 
 	// Reducer Data
 	//     + discarded v-tables : 458
-	//     + discarded v-table methods : 1067
+	//     + discarded v-table methods : 1069
 	//     + discarded class methods : 0
 	//     + discarded dispatch class methods : 45
 	//     + discarded stub class methods : 7

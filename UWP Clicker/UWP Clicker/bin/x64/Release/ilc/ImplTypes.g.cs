@@ -18804,6 +18804,17 @@ namespace Windows.UI
 		public static partial class Stubs
 		{
 			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static global::Windows.UI.Color get_Black(global::System.__ComObject __this)
+			{
+				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_32<global::Windows.UI.IColorsStatics>(
+									__this, 
+									13
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
 			public static global::Windows.UI.Color get_Transparent(global::System.__ComObject __this)
 			{
 				global::Windows.UI.Color __ret = global::__Interop.ForwardComStubs.Stub_32<global::Windows.UI.IColorsStatics>(
@@ -19042,6 +19053,19 @@ namespace Windows.UI.ViewManagement
 		// StubClass for 'Windows.UI.ViewManagement.IApplicationViewTitleBar'
 		public static partial class Stubs
 		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static void put_ButtonForegroundColor(
+						global::System.__ComObject __this, 
+						global::System.Nullable<global::Windows.UI.Color> value)
+			{
+				global::__Interop.ForwardComStubs.Stub_48<global::Windows.UI.ViewManagement.IApplicationViewTitleBar>(
+									__this, 
+									value, 
+									10
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+
 			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
 			public static void put_ButtonBackgroundColor(
 						global::System.__ComObject __this, 

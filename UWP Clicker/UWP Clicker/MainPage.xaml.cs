@@ -42,6 +42,8 @@ namespace UWP_Clicker
             ApplicationViewTitleBar titleBar = ApplicationView.GetForCurrentView().TitleBar;
             titleBar.ButtonBackgroundColor = Colors.Transparent;
             titleBar.ButtonInactiveBackgroundColor = Colors.Transparent;
+
+            titleBar.ButtonForegroundColor = Windows.UI.Colors.Black;
         }
             
         int clicks = 0;
