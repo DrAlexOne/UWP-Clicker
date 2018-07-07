@@ -432,3 +432,4 @@ C:\Users\coole\source\repos\UWP Clicker\UWP Clicker\obj\ARM\Release\ilc\intermed
 C:\Users\coole\source\repos\UWP Clicker\UWP Clicker\obj\ARM\Release\ilc\intermediate\UWP Clicker.McgInterop\PInvoke.g.cs
 C:\Users\coole\source\repos\UWP Clicker\UWP Clicker\obj\ARM\Release\ilc\intermediate\UWP Clicker.McgInterop\SafeTypes.g.cs
 C:\Users\coole\source\repos\UWP Clicker\UWP Clicker\obj\ARM\Release\ilc\intermediate\UWP Clicker.McgInterop\SharedStubs.g.cs
+C:\Users\coole\source\repos\UWP Clicker\UWP Clicker\obj\ARM\Release\UWP Clicker.csprojAssemblyReference.cache

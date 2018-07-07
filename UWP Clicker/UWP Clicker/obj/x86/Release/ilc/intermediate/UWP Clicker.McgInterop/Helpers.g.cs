@@ -884,9 +884,7 @@ namespace __Interop
 		internal static int StdCall__23(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					void* arg0, 
-					uint arg1, 
-					void* arg2)
+					global::System.Runtime.InteropServices.HSTRING arg0)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
@@ -895,7 +893,7 @@ namespace __Interop
 		internal static int StdCall__24(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					sbyte arg0)
+					global::Windows.UI.Color arg0)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
@@ -904,7 +902,7 @@ namespace __Interop
 		internal static int StdCall__25(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					global::System.Runtime.InteropServices.HSTRING arg0)
+					sbyte arg0)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
@@ -1640,233 +1638,188 @@ namespace __Interop
 
 		public delegate void AddrOfTarget66(
 					global::System.__ComObject a0, 
-					global::Windows.Foundation.Collections.IObservableVector<object> a1, 
-					global::Windows.Foundation.Collections.IVectorChangedEventArgs a2);
+					global::Windows.UI.Xaml.Controls.Primitives.FlyoutBase a1, 
+					global::Windows.UI.Xaml.Controls.Primitives.FlyoutBaseClosingEventArgs a2);
 
 		public delegate void AddrOfTarget67(
 					global::System.__ComObject a0, 
 					object a1, 
-					global::Windows.UI.Xaml.Controls.SelectionChangedEventArgs a2);
-
-		public delegate void AddrOfTarget68(
-					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.UI.Xaml.Controls.ItemClickEventArgs a2);
-
-		public delegate void AddrOfTarget69(
-					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.UI.Xaml.Controls.DragItemsStartingEventArgs a2);
-
-		public delegate void AddrOfTarget70(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Xaml.Controls.ListViewBase a1, 
-					global::Windows.UI.Xaml.Controls.ContainerContentChangingEventArgs a2);
-
-		public delegate void AddrOfTarget71(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Xaml.Controls.ListViewBase a1, 
-					global::Windows.UI.Xaml.Controls.DragItemsCompletedEventArgs a2);
-
-		public delegate void AddrOfTarget72(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Xaml.Controls.ListViewBase a1, 
-					global::Windows.UI.Xaml.Controls.ChoosingItemContainerEventArgs a2);
-
-		public delegate void AddrOfTarget73(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Xaml.Controls.ListViewBase a1, 
-					global::Windows.UI.Xaml.Controls.ChoosingGroupHeaderContainerEventArgs a2);
-
-		public delegate void AddrOfTarget74(
-					global::System.__ComObject a0, 
-					object a1, 
 					global::Windows.UI.Xaml.Controls.ContextMenuEventArgs a2);
 
-		public delegate void AddrOfTarget75(
+		public delegate void AddrOfTarget68(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Controls.TextBlock a1, 
 					global::Windows.UI.Xaml.Controls.IsTextTrimmedChangedEventArgs a2);
 
-		public delegate void AddrOfTarget76(
-					global::System.__ComObject a0, 
-					global::Windows.Foundation.Collections.IObservableVector<global::Windows.UI.Xaml.Controls.ICommandBarElement> a1, 
-					global::Windows.Foundation.Collections.IVectorChangedEventArgs a2);
-
-		public delegate void AddrOfTarget77(
+		public delegate void AddrOfTarget69(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Controls.CommandBar a1, 
 					global::Windows.UI.Xaml.Controls.DynamicOverflowItemsChangingEventArgs a2);
 
-		public delegate void AddrOfTarget78(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Xaml.Controls.Primitives.FlyoutBase a1, 
-					global::Windows.UI.Xaml.Controls.Primitives.FlyoutBaseClosingEventArgs a2);
-
-		public delegate void AddrOfTarget79(
+		public delegate void AddrOfTarget70(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.ApplicationInitializationCallbackParams a1);
 
-		public delegate void AddrOfTarget80(
+		public delegate void AddrOfTarget71(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.UnhandledExceptionEventArgs a2);
 
-		public delegate void AddrOfTarget81(
+		public delegate void AddrOfTarget72(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.ApplicationModel.SuspendingEventArgs a2);
 
-		public delegate void AddrOfTarget82(
+		public delegate void AddrOfTarget73(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.ApplicationModel.LeavingBackgroundEventArgs a2);
 
-		public delegate void AddrOfTarget83(
+		public delegate void AddrOfTarget74(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.ApplicationModel.EnteredBackgroundEventArgs a2);
 
-		public delegate object AddrOfTarget84<T>(global::System.Collections.Generic.IEnumerable<T> a0);
+		public delegate object AddrOfTarget75<T>(global::System.Collections.Generic.IEnumerable<T> a0);
 
-		public delegate void AddrOfTarget85(
+		public delegate void AddrOfTarget76(
 					global::System.__ComObject a0, 
 					global::Windows.Foundation.Collections.IObservableMap<string, string> a1, 
 					global::Windows.Foundation.Collections.IMapChangedEventArgs<string> a2);
 
-		public delegate void AddrOfTarget86(
+		public delegate void AddrOfTarget77(
 					global::System.__ComObject a0, 
 					global::Windows.Foundation.IAsyncAction a1);
 
-		public delegate void AddrOfTarget87(
+		public delegate void AddrOfTarget78(
 					global::System.__ComObject a0, 
 					global::Windows.System.Threading.ThreadPoolTimer a1);
 
-		public delegate void AddrOfTarget88(global::System.__ComObject a0);
+		public delegate void AddrOfTarget79(global::System.__ComObject a0);
 
-		public delegate int AddrOfTarget89<T>(
+		public delegate int AddrOfTarget80<T>(
 					global::Windows.Foundation.AsyncOperationCompletedHandler<T> a0, 
 					global::Windows.Foundation.IAsyncOperation<T> a1, 
 					global::Windows.Foundation.AsyncStatus a2);
 
-		public delegate void AddrOfTarget90(
+		public delegate void AddrOfTarget81(
 					global::System.__ComObject a0, 
 					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.IStorageItem> a1, 
 					global::Windows.Foundation.AsyncStatus a2);
 
-		public delegate void AddrOfTarget91(
+		public delegate void AddrOfTarget82(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.Foundation.Diagnostics.TracingStatusChangedEventArgs a2);
 
-		public delegate void AddrOfTarget92(
+		public delegate void AddrOfTarget83(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Navigation.NavigationEventArgs a2);
 
-		public delegate void AddrOfTarget93(
+		public delegate void AddrOfTarget84(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Navigation.NavigatingCancelEventArgs a2);
 
-		public delegate void AddrOfTarget94(
+		public delegate void AddrOfTarget85(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Navigation.NavigationFailedEventArgs a2);
 
-		public delegate void AddrOfTarget95(
+		public delegate void AddrOfTarget86(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Controls.ContentDialog a1, 
 					global::Windows.UI.Xaml.Controls.ContentDialogClosingEventArgs a2);
 
-		public delegate void AddrOfTarget96(
+		public delegate void AddrOfTarget87(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Controls.ContentDialog a1, 
 					global::Windows.UI.Xaml.Controls.ContentDialogClosedEventArgs a2);
 
-		public delegate void AddrOfTarget97(
+		public delegate void AddrOfTarget88(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Controls.ContentDialog a1, 
 					global::Windows.UI.Xaml.Controls.ContentDialogOpenedEventArgs a2);
 
-		public delegate void AddrOfTarget98(
+		public delegate void AddrOfTarget89(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Controls.ContentDialog a1, 
 					global::Windows.UI.Xaml.Controls.ContentDialogButtonClickEventArgs a2);
 
-		public delegate void AddrOfTarget99(
+		public delegate void AddrOfTarget90(
 					global::System.__ComObject a0, 
 					global::Windows.Foundation.IAsyncOperation<global::Windows.UI.Xaml.Controls.ContentDialogResult> a1, 
 					global::Windows.Foundation.AsyncStatus a2);
 
-		public delegate void AddrOfTarget100(
+		public delegate void AddrOfTarget91(
 					global::System.__ComObject a0, 
 					global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Storage.Streams.IBuffer, uint> a1, 
 					uint a2);
 
-		public delegate void AddrOfTarget101(
+		public delegate void AddrOfTarget92(
 					global::System.__ComObject a0, 
 					global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Storage.Streams.IBuffer, uint> a1, 
 					global::Windows.Foundation.AsyncStatus a2);
 
-		public delegate void AddrOfTarget102(
+		public delegate void AddrOfTarget93(
 					global::System.__ComObject a0, 
 					global::Windows.Foundation.IAsyncOperationWithProgress<uint, uint> a1, 
 					uint a2);
 
-		public delegate void AddrOfTarget103(
+		public delegate void AddrOfTarget94(
 					global::System.__ComObject a0, 
 					global::Windows.Foundation.IAsyncOperationWithProgress<uint, uint> a1, 
 					global::Windows.Foundation.AsyncStatus a2);
 
-		public delegate void AddrOfTarget104(
+		public delegate void AddrOfTarget95(
 					global::System.__ComObject a0, 
 					global::Windows.Foundation.IAsyncOperation<bool> a1, 
 					global::Windows.Foundation.AsyncStatus a2);
 
-		public delegate void AddrOfTarget105(
+		public delegate void AddrOfTarget96(
 					global::System.__ComObject a0, 
 					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Streams.IRandomAccessStream> a1, 
 					global::Windows.Foundation.AsyncStatus a2);
 
-		public delegate void AddrOfTarget106(
+		public delegate void AddrOfTarget97(
 					global::System.__ComObject a0, 
 					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> a1, 
 					global::Windows.Foundation.AsyncStatus a2);
 
-		public delegate void AddrOfTarget107(
+		public delegate void AddrOfTarget98(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Core.WindowActivatedEventArgs a2);
 
-		public delegate void AddrOfTarget108(
+		public delegate void AddrOfTarget99(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Core.CoreWindowEventArgs a2);
 
-		public delegate void AddrOfTarget109(
+		public delegate void AddrOfTarget100(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Core.WindowSizeChangedEventArgs a2);
 
-		public delegate void AddrOfTarget110(
+		public delegate void AddrOfTarget101(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Core.VisibilityChangedEventArgs a2);
 
-		public delegate object AddrOfTarget111(global::System.__ComObject a0);
+		public delegate object AddrOfTarget102(global::System.__ComObject a0);
 
-		public delegate object AddrOfTarget112(object a0);
+		public delegate object AddrOfTarget103(object a0);
 
-		public delegate int AddrOfTarget113(
+		public delegate int AddrOfTarget104(
 					ref global::Windows.UI.Xaml.Markup.XmlnsDefinition a0, 
 					out global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType a1);
 
-		public delegate int AddrOfTarget114(
+		public delegate int AddrOfTarget105(
 					ref global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType a0, 
 					out global::Windows.UI.Xaml.Markup.XmlnsDefinition a1);
 
-		public delegate void AddrOfTarget115(ref global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType a0);
+		public delegate void AddrOfTarget106(ref global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType a0);
 	}
 }
 

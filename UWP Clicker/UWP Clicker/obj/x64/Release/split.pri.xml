@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PriInfo>
-	<ResourceMap name="5c6a61a4-9648-41c6-b4c4-c87e1acd98af" version="1.0" primary="true">
+	<ResourceMap name="ClickerUWP" version="1.0" primary="true">
 		<Qualifiers>
 			<AlternateForm>UNPLATED</AlternateForm>
 			<Scale>200</Scale>
 			<TargetSize>24</TargetSize>
 		</Qualifiers>
 		<ResourceMapSubtree name="Files">
-			<NamedResource name="App.xbf" uri="ms-resource://5c6a61a4-9648-41c6-b4c4-c87e1acd98af/Files/App.xbf">
+			<NamedResource name="App.xbf" uri="ms-resource://ClickerUWP/Files/App.xbf">
 				<Candidate type="EmbeddedData">
 					<Base64Value>[Embedded Binary Data]</Base64Value>
 				</Candidate>
 			</NamedResource>
-			<NamedResource name="MainPage.xbf" uri="ms-resource://5c6a61a4-9648-41c6-b4c4-c87e1acd98af/Files/MainPage.xbf">
+			<NamedResource name="MainPage.xbf" uri="ms-resource://ClickerUWP/Files/MainPage.xbf">
 				<Candidate type="EmbeddedData">
 					<Base64Value>[Embedded Binary Data]</Base64Value>
 				</Candidate>
 			</NamedResource>
-			<NamedResource name="UWP Clicker.xr.xml" uri="ms-resource://5c6a61a4-9648-41c6-b4c4-c87e1acd98af/Files/UWP Clicker.xr.xml">
+			<NamedResource name="UWP Clicker.xr.xml" uri="ms-resource://ClickerUWP/Files/UWP Clicker.xr.xml">
 				<Candidate type="Path">
 					<Value>UWP Clicker.xr.xml</Value>
 				</Candidate>
 			</NamedResource>
 			<ResourceMapSubtree name="Assets">
-				<NamedResource name="LockScreenLogo.png" uri="ms-resource://5c6a61a4-9648-41c6-b4c4-c87e1acd98af/Files/Assets/LockScreenLogo.png">
+				<NamedResource name="LockScreenLogo.png" uri="ms-resource://ClickerUWP/Files/Assets/LockScreenLogo.png">
 					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
 						<Value>Assets\LockScreenLogo.scale-200.png</Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="SplashScreen.png" uri="ms-resource://5c6a61a4-9648-41c6-b4c4-c87e1acd98af/Files/Assets/SplashScreen.png">
+				<NamedResource name="SplashScreen.png" uri="ms-resource://ClickerUWP/Files/Assets/SplashScreen.png">
 					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
 						<Value>Assets\SplashScreen.scale-200.png</Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="Square150x150Logo.png" uri="ms-resource://5c6a61a4-9648-41c6-b4c4-c87e1acd98af/Files/Assets/Square150x150Logo.png">
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://ClickerUWP/Files/Assets/Square150x150Logo.png">
 					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
 						<Value>Assets\Square150x150Logo.scale-200.png</Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="Square44x44Logo.png" uri="ms-resource://5c6a61a4-9648-41c6-b4c4-c87e1acd98af/Files/Assets/Square44x44Logo.png">
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://ClickerUWP/Files/Assets/Square44x44Logo.png">
 					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
 						<Value>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</Value>
 					</Candidate>
@@ -46,26 +46,26 @@
 						<Value>Assets\Square44x44Logo.scale-200.png</Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="StoreLogo.png" uri="ms-resource://5c6a61a4-9648-41c6-b4c4-c87e1acd98af/Files/Assets/StoreLogo.png">
+				<NamedResource name="StoreLogo.png" uri="ms-resource://ClickerUWP/Files/Assets/StoreLogo.png">
 					<Candidate type="Path">
 						<Value>Assets\StoreLogo.png</Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://5c6a61a4-9648-41c6-b4c4-c87e1acd98af/Files/Assets/Wide310x150Logo.png">
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://ClickerUWP/Files/Assets/Wide310x150Logo.png">
 					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
 						<Value>Assets\Wide310x150Logo.scale-200.png</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="Properties">
-				<NamedResource name="Default.rd.xml" uri="ms-resource://5c6a61a4-9648-41c6-b4c4-c87e1acd98af/Files/Properties/Default.rd.xml">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://ClickerUWP/Files/Properties/Default.rd.xml">
 					<Candidate type="Path">
 						<Value>Properties\Default.rd.xml</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="WinMetadata">
-				<NamedResource name="Windows.winmd" uri="ms-resource://5c6a61a4-9648-41c6-b4c4-c87e1acd98af/Files/WinMetadata/Windows.winmd">
+				<NamedResource name="Windows.winmd" uri="ms-resource://ClickerUWP/Files/WinMetadata/Windows.winmd">
 					<Candidate type="Path">
 						<Value>WinMetadata\Windows.winmd</Value>
 					</Candidate>

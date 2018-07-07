@@ -15,6 +15,8 @@ using Windows.UI.Xaml.Navigation;
 using Windows.UI.Notifications;
 using Microsoft.Toolkit.Uwp.Notifications;
 using Windows.UI.ViewManagement;
+using Windows.ApplicationModel.Core;
+using Windows.UI;
 
 // Документацию по шаблону элемента "Пустая страница" см. по адресу https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x419
 
@@ -28,12 +30,20 @@ namespace UWP_Clicker
         public MainPage()
         {
             this.InitializeComponent();
+            /*
             var titleBar = ApplicationView.GetForCurrentView().TitleBar;
             titleBar.ForegroundColor = Windows.UI.Colors.Black;
             titleBar.BackgroundColor = Windows.UI.Colors.WhiteSmoke;
             titleBar.ButtonForegroundColor = Windows.UI.Colors.Black;
             titleBar.ButtonBackgroundColor = Windows.UI.Colors.WhiteSmoke;
+            */
+
+            CoreApplication.GetCurrentView().TitleBar.ExtendViewIntoTitleBar = true;
+            ApplicationViewTitleBar titleBar = ApplicationView.GetForCurrentView().TitleBar;
+            titleBar.ButtonBackgroundColor = Colors.Transparent;
+            titleBar.ButtonInactiveBackgroundColor = Colors.Transparent;
         }
+            
         int clicks = 0;
         int cn = 1;
 
@@ -56,6 +66,7 @@ namespace UWP_Clicker
                 cn = cn + 1;
                 txtBlock.Text = clicks.ToString();
 
+                /*
                 ToastContent content = new ToastContent()
                 {
 
@@ -74,10 +85,11 @@ namespace UWP_Clicker
                         }
                     },
                 };
+                
 
                 var toast = new ToastNotification(content.GetXml());
                 ToastNotificationManager.CreateToastNotifier().Show(toast);
-
+                */
             }
 
             else
@@ -93,6 +105,12 @@ namespace UWP_Clicker
                 ContentDialogResult result = await SClicks.ShowAsync();
                 
             }
+        }
+
+        private void ClickB(object sender, RoutedEventArgs e)
+        {
+            clicks = clicks + cn;
+            txtBlock.Text = clicks.ToString();
         }
     }
 }

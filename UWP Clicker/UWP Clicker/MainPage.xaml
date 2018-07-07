@@ -9,15 +9,17 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <GridView HorizontalAlignment="Center" Margin="0,115,0,50" VerticalAlignment="Center">
-            <ItemsControl HorizontalAlignment="Center" Height="100" VerticalAlignment="Center" Width="100" PointerPressed="ItemsControl_PointerPressed">
-                <FontIcon Glyph="&#xF271;" Height="100" Width="100" FontSize="48" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center"/>
-            </ItemsControl>
-        </GridView>
+        <Button HorizontalAlignment="Center" Width="100" Height="100" FontSize="36" Background="#FFEEEEEE" FocusVisualPrimaryBrush="#FFCCCCCC" BorderThickness="3,3,3,3" Style="{StaticResource ButtonRevealStyle}" Click="ClickB">
+            <FontIcon Glyph="&#xE962;" FontSize="30"/>
+        </Button>
 
-        <Rectangle Height="100" Margin="0,0,0,0" VerticalAlignment="Top" Fill="WhiteSmoke"/>
+        <Rectangle Height="100" Margin="0,0,0,0" VerticalAlignment="Top">
+            <Rectangle.Fill>
+                <AcrylicBrush TintColor="WhiteSmoke" FallbackColor="WhiteSmoke" AlwaysUseFallback="False" BackgroundSource="HostBackdrop" TintOpacity="0.8"/>
+            </Rectangle.Fill>
+        </Rectangle>
         <TextBlock x:Name="txtBlock" HorizontalAlignment="Left" Margin="21,29,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30"/>
-        <CommandBar VerticalAlignment="Bottom" Background="WhiteSmoke">
+        <CommandBar VerticalAlignment="Top" Background="{x:Null}" Width="48" HorizontalAlignment="Right" Margin="0,52,0,0">
             <CommandBar.Content>
                 <Grid/>
             </CommandBar.Content>

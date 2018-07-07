@@ -1,2 +1,2 @@
-MainPackage=C:\Users\coole\source\repos\UWP Clicker\UWP Clicker\bin\x86\Release\UWP Clicker_0.1.2.0_x86.appx
-SymbolPackage=C:\Users\coole\source\repos\UWP Clicker\UWP Clicker\AppPackages\UWP Clicker_0.1.2.0_Test\UWP Clicker_0.1.2.0_x86.appxsym
+MainPackage=C:\Users\coole\source\repos\UWP Clicker\UWP Clicker\bin\x86\Release\UWP Clicker_0.2.5.0_x86.appx
+SymbolPackage=C:\Users\coole\source\repos\UWP Clicker\UWP Clicker\AppPackages\UWP Clicker_0.2.5.0_Test\UWP Clicker_0.2.5.0_x86.appxsym
